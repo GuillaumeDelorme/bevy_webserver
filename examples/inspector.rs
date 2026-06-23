@@ -10,8 +10,11 @@ use axum::{
 use bevy::ecs::component::ComponentInfo;
 use bevy::ecs::entity::Entities;
 use bevy::ecs::world::error::EntityComponentError;
+use bevy::reflect::enums::EnumInfo;
+use bevy::reflect::structs::StructInfo;
+use bevy::reflect::tuple_struct::TupleStructInfo;
 use bevy::reflect::{
-    DynamicTypePath, EnumInfo, ReflectFromPtr, StructInfo, TupleStructInfo, TypeInfo, TypeRegistry,
+    DynamicTypePath, ReflectFromPtr, TypeInfo, TypeRegistry,
 };
 use bevy::{color::palettes::tailwind, prelude::*};
 use bevy_defer::AsyncWorld;

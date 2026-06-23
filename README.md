@@ -15,8 +15,8 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-bevy_webserver = "0.4.0"
-bevy = "0.18.0"
+bevy_webserver = "0.5.0"
+bevy = "0.19.0"
 axum = "0.8.1"
 ```
 
@@ -156,6 +156,7 @@ This also uses another one of my crates bevy_easy_database which makes it easy t
 
 | bevy | bevy_webserver |
 |------|----------------|
+| 0.19 | 0.5            |
 | 0.18 | 0.4            |
 | 0.17 | 0.3            |
 | 0.16 | 0.2            |
